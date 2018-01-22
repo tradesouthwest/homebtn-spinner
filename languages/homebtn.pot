@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: homebtn\n"
+"POT-Creation-Date: 2018-01-22 10:07-0700\n"
+"PO-Revision-Date: 2018-01-22 10:08-0700\n"
+"Last-Translator: \n"
+"Language-Team: Tradesouthwest <tradesouthwest@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/homebtn-admin.php:17
+msgid "HomeBtn Settings"
+msgstr ""
+
+#: admin/homebtn-admin.php:18
+msgid "Home Button"
+msgstr ""
+
+#: admin/homebtn-admin.php:51
+msgid "Button Specific Settings"
+msgstr ""
+
+#: admin/homebtn-admin.php:58
+msgid "Button Background Color"
+msgstr ""
+
+#: admin/homebtn-admin.php:63
+msgid "Button Background"
+msgstr ""
+
+#: admin/homebtn-admin.php:70
+msgid "Set Background color of button."
+msgstr ""
+
+#: admin/homebtn-admin.php:77
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/homebtn-admin.php:82
+msgid "Button text color"
+msgstr ""
+
+#: admin/homebtn-admin.php:89
+msgid "Set general text color to button."
+msgstr ""
+
+#: admin/homebtn-admin.php:96
+msgid "Page Transition Time"
+msgstr ""
+
+#: admin/homebtn-admin.php:101
+msgid "Set speed of transition"
+msgstr ""
+
+#: admin/homebtn-admin.php:107
+msgid "Set how fast of slow the fade in out will be."
+msgstr ""
+
+#: admin/homebtn-admin.php:117
+msgid "Footer Distance Setting"
+msgstr ""
+
+#: admin/homebtn-admin.php:122
+msgid "Set distance from bottom of page"
+msgstr ""
+
+#: admin/homebtn-admin.php:128 admin/homebtn-admin.php:149
+msgid "Measurement is in &#39;ems&#39;. 1em is approx. 16pxs."
+msgstr ""
+
+#: admin/homebtn-admin.php:138
+msgid "Width of Timer"
+msgstr ""
+
+#: admin/homebtn-admin.php:143
+msgid "Set width of element"
+msgstr ""
+
+#: admin/homebtn-admin.php:159
+msgid "Text Above Timer"
+msgstr ""
+
+#: admin/homebtn-admin.php:164
+msgid "Set text above timer"
+msgstr ""
+
+#: admin/homebtn-admin.php:171
+msgid "You will be redirected shortly"
+msgstr ""
+
+#: admin/homebtn-admin.php:207
+msgid "Settings Saved"
+msgstr ""
