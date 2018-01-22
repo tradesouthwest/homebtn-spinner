@@ -1,0 +1,175 @@
+[class^="homebtn-"] {
+box-sizing: border-box;
+} 
+.homebtnclearfix:before,
+.homebtnclearfix:after {
+content: " ";
+clear: both;
+}
+.homebtnclearfix:after {
+display: table;
+} 
+/*
+.homebtnclearleft:before {
+content: " ";
+position: relative;
+width: 100%;
+display: block;
+height: .05%;
+background:transparent;
+clear:left;
+} 
+.homebtnclearleft:after {
+content: " ";
+display: table;
+clear: both;
+}
+*/
+
+/* used if button is at bottom of content */
+.post.hentry p:last-child{ clear:both;display:table-row;}
+
+/*=== Trigger  ===*/ 
+/*
+.home.homebtn.fadeInRight {
+   animation-fill-mode: both;
+ 
+}
+.home.homebtn { 
+animation-delay: 0s;
+ 
+}
+body.admin-bar.homebtn {
+margin-top: -32px;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+} 
+*/
+/* section container */
+#HomeBtn{
+position: absolute; 
+left: 0; 
+margin: 0 auto;
+padding: 5px 15px;
+background: rgba(252,252,252, .9);
+box-sizing: border-box;
+overflow: hidden;
+text-align: center;
+height: 320px;
+}
+/* button section inside container */
+.homebtn-section { 
+margin: 0 auto;
+padding: 8px;
+height: 150px;
+
+display: block;
+position: relative;
+left: -.5em;
+width: 150px;
+}
+/* button if link */
+.homebtn-button{
+padding: 5px 10px;
+margin: 0 auto;
+display: block;
+height: 40px;
+}
+a.homebtn-button:hover {
+    color: initial;
+    background: rgba(252,252,252, .2);    
+}
+#timer {
+color: #333;
+font-family: Gothic, century;
+font-size: 2em;
+}
+/* Loader */
+.loader,
+.loader:after {
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+}
+.loader-text {
+    font-family: inherit;
+    text-align: center;
+    padding-top: 2.5em;
+}
+.loader {
+    position: relative;
+    top: -9em;
+    left: 42%;
+    border-top:    .45em solid #2d2d2d;
+    border-right:  .45em solid #2d2d2d;
+    border-bottom: .45em solid #2d2d2d;  /* blue #36a9e1 */
+    border-left:   .45em solid #ffffff;
+    -webkit-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+            animation: load8 1.1s infinite linear;
+    }
+    @-webkit-keyframes load8 {
+      0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes load8 {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
